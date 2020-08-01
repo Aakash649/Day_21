@@ -11,12 +11,17 @@ class Attendence{
 	public void attend() 
 	{
 	int Emp_Wage_per_Hr=20;
-	int full_day=8,EmpWage,hrs;
-	double p=Math.floor(Math.random()*10)%2;
+	int full_day=8,part_day=4,EmpWage,hrs;
+	double p=Math.floor(Math.random()*10)%3;
 	if(p == 1) 
 	{
 		System.out.println("Present");
 		hrs=full_day;
+	}
+	else if(p == 2)
+	{
+ 		System.out.println("Part Day");
+                hrs=part_day;
 	}
 	else
 	{
