@@ -1,3 +1,6 @@
+//same as the previous becaune no changes have to be made 
+//because it is already in that format
+
 class Hello
 {
 	void Welcome()
